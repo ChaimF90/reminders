@@ -1,0 +1,33 @@
+{
+  "name": "reminders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/ts-node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "@types/body-parser": "^1.16.4",
+    "@types/express": "^4.0.36",
+    "@types/jsonwebtoken": "^7.2.3",
+    "@types/knex": "0.0.57",
+    "@types/randomstring": "^1.1.6",
+    "@types/sendgrid": "^4.3.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-promise-router": "^2.0.0",
+    "jsonwebtoken": "^7.4.2",
+    "knex": "^0.13.0",
+    "mysql": "^2.14.1",
+    "randomstring": "^1.1.5",
+    "sendgrid": "^5.2.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2"
+  }
+}
